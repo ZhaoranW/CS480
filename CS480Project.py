@@ -121,7 +121,7 @@ def build_model():
     output6 = Dense(1, activation='linear', name='output6')(z)
     
     model = Model(inputs=[img_input, ancillary_input], outputs=[output1, output2, output3, output4, output5, output6])
-    model.compile(optimizer=Adam(learning_rate=0.002), 
+    model.compile(optimizer=Adam(learning_rate=0.001), 
                   loss={
                       'output1': 'mean_squared_error', 
                       'output2': 'mean_squared_error', 
