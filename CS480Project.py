@@ -1,4 +1,8 @@
-# originally run in Kaggle
+# TO RUN THIS:
+# LOAD INTO A KAGGLE NOTEBOOK
+# LOAD train.csv INTO '/kaggle/input/cs-480-2024-spring/data/train.csv' and
+# LOAD test.csv INTO '/kaggle/input/cs-480-2024-spring/data/test.csv'
+# THEN RUN NOTEBOOK
 
 
 import numpy as np
